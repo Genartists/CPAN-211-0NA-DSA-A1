@@ -1,4 +1,16 @@
-package Geometry;
+/**********************************************
+ Assignment 1
+ Course:<subject type> - Semester
+ Last Name:<student last name>
+ First Name:<student first name>
+ ID:<student ID>
+ Section:<section name>
+ This assignment represents my own work in accordance with Humber Academic Policy.
+ Signature
+ Date:<submission date>
+ **********************************************/
+
+package geometry;
 
 public abstract class GeometricObject {
     private String color = "white";

@@ -1,4 +1,18 @@
-package Geometry;
+/**********************************************
+ Assignment 1
+ Course:<subject type> - Semester
+ Last Name:<student last name>
+ First Name:<student first name>
+ ID:<student ID>
+ Section:<section name>
+ This assignment represents my own work in accordance with Humber Academic Policy.
+ Signature
+ Date:<submission date>
+ **********************************************/
+
+package shapes;
+
+import geometry.GeometricObject;
 
 public class Triangle extends GeometricObject {
     private double side1 = 1.0;
@@ -46,8 +60,13 @@ public class Triangle extends GeometricObject {
 
     @Override
     public String toString() {
-        return "Triangle: side1 = " + side1 + 
-               ", side2 = " + side2 + 
-               ", side3 = " + side3;
+        return "\n--Triangle Info--" +
+                "\nSide 1: " + side1 + "cm" +
+                "\nSide 2: " + side2 + "cm" +
+                "\nSide 3: " + side3 + "cm" +
+                "\nColor: " + getColor() +
+                "\nFilled: " + isFilled() +
+                "\nArea: " + getArea() +
+                "\nPerimeter: " + getPerimeter();
     }
 }
