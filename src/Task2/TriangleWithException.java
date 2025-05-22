@@ -9,11 +9,9 @@
  Hao
  Date: May 21, 2025
  **********************************************/
+package Task2;
 
-package shapes;
-
-import geometry.GeometricObject;
-import exception.TriangleException;
+import Task1.GeometricObject;
 
 public class TriangleWithException extends GeometricObject {
     private double side1;

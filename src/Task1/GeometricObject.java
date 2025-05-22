@@ -1,16 +1,16 @@
 /**********************************************
  Assignment 1
- Course:<subject type> - Semester
- Last Name:<student last name>
- First Name:<student first name>
- ID:<student ID>
- Section:<section name>
+ Course: Data Structures & Algorithms
+ Last Name: Shah
+ First Name: Kresha
+ ID: N01715324
+ Section: CPAN-211-0NA
  This assignment represents my own work in accordance with Humber Academic Policy.
- Signature
- Date:<submission date>
+ Kresha
+ Date: May 21, 2025
  **********************************************/
 
-package geometry;
+package Task1;
 
 public abstract class GeometricObject {
     private String color = "white";
@@ -34,7 +34,7 @@ public abstract class GeometricObject {
     }
 
     public boolean isFilled() {
-        return filled;
+        return this.filled;
     }
 
     public void setFilled(boolean filled) {

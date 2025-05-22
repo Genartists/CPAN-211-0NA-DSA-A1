@@ -1,18 +1,16 @@
 /**********************************************
  Assignment 1
- Course:<subject type> - Semester
- Last Name:<student last name>
- First Name:<student first name>
- ID:<student ID>
- Section:<section name>
+ Course: Data Structures & Algorithms
+ Last Name: Patel
+ First Name: Avni Patel
+ ID: N01266557
+ Section: CPAN-211-0NA
  This assignment represents my own work in accordance with Humber Academic Policy.
- Signature
- Date:<submission date>
+ Avni
+ Date: May 21, 2025
  **********************************************/
 
-package shapes;
-
-import geometry.GeometricObject;
+package Task1;
 
 public class Triangle extends GeometricObject {
     private double side1 = 1.0;

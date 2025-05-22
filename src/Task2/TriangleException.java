@@ -11,7 +11,7 @@
  **********************************************/
 
 
-package exception;
+package Task2;
 
 public class TriangleException extends Exception {
     private double invalidSide;
